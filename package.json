@@ -7,7 +7,7 @@
     "build:clean": "rm -rf ./build/*",
     "build:copy": "cp -r ./src/* ./build/",
     "build": "npm run build:clean && npm run build:copy",
-    "publish": "node ./scripts/publish"
+    "publish": "npm run build && node ./scripts/publish"
   },
   "author": "",
   "license": "ISC",
