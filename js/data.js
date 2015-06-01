@@ -4,7 +4,7 @@ bh.rooms = [
   {
     id: 'grace-hopper',
     name: 'Grace Hopper',
-    description: '',
+    description: 'Nascida em 9 de dezembro de 1906, Rear Admiral Grace Hopper foi uma oficial naval dos Estados Unidos e uma das primeiras programadoras da história. Ela foi a desenvolvedora do primeiro compilador para uma linguagem de programação e no final de seu serviço ela era a oficial mais velha servindo a marinha dos Estados Unidos.',
     specs: [ 'Video Conference', '6 People' ]
   },
   {
@@ -16,7 +16,7 @@ bh.rooms = [
   {
     id: 'alan-turing',
     name: 'Alan Turing',
-    description: '',
+    description: 'Nascido em 23 de junho de 1912, Alan Mathison Turing foi um matemático, lógico, criptoanalista e cientista da computação britânico. Foi influente no desenvolvimento da ciência da computação e na formalização do conceito de algoritmo e computação com a máquina de Turing, desempenhando um papel importante na criação do computador moderno.',
     specs: [ 'Video Conference', '6 People' ]
   },
   {
