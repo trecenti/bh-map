@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:clean": "rm -rf ./build/*",
+    "build:clean": "mkdir -p ./build/ && rm -rf ./build/*",
     "build:copy": "cp -r ./src/* ./build/",
     "build": "npm run build:clean && npm run build:copy",
     "publish": "npm run build && node ./scripts/publish"
