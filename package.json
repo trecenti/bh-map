@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:clean": "rm -rf ./build/*",
+    "build:copy": "cp -r ./src/* ./build/",
+    "build": "npm run build:clean && npm run build:copy",
     "publish": "node ./scripts/publish"
   },
   "author": "",
