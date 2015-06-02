@@ -101,3 +101,5 @@ bh.areas = [
     name: 'Lounge'
   },
 ];
+
+exports.bh = bh;

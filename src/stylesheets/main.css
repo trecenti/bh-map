@@ -76,6 +76,7 @@ svg > #lounge.active {
   stroke-width: 6 !important;
 }
 
+svg > *:hover,
 svg > *.highlight {
   fill: rgb(255, 244, 80) !important;
 }
