@@ -52,7 +52,7 @@ bh.rooms = [
   {
     id: 'luca-bastos',
     name: 'Luca Bastos',
-    description: '',
+    description: 'Com mais de 40 anos de carreira, Luca Bastos foi um ThoughtWorker e um dos fundadores do Grupo de Usuários Java no Brasil. Ele defendia a atividade da tecnologia da informação como instrumento de mudança social. No livro Antologia ThoughtWorks, Luca escreveu: “Tenho certeza de que a experiência aqui compartilhada servirá para que mais gente nos ajude na missão de melhorar a humanidade por meio do software, criando um ecossistema socialmente responsável e economicamente justo, além de mudar o papel da tecnologia na sociedade.”.',
     specs: [ 'Video Conference', 'Projector', '50 People' ]
   },
   {

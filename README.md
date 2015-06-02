@@ -4,7 +4,10 @@ A simple dynamic map directory for ThoughtWorks Belo Horizonte, hosted [here](ht
 
 ## Contributing
 
+Install dependencies using `npm install`
+
 Build using `npm run build`
+
 Test using `npm test`
 
 Write tests whenever possible
