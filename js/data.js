@@ -19,7 +19,7 @@ bh.rooms = [
   { 
     id: 'aaron-swartz', 
     name: 'Aaron Swartz', 
-    description: 'Aaron Swartz foi um ThoughtWorker, programdor, escritor, ativista de internet e organizador político. Trabalhou na especificação do RSS, criação do Reddit e também era membro do Centro Experimental de Ética da Universidade de Harvard. Preso por realizar downloads da revista científica JSTOR, Aaron cometeu sucídio aos 26 anos. Aaron utilizou a tecnologia de uma forma brilhante e corajosa para empoderar pessoas e democratizar o acesso a informações, como veículos para expressão, e ferramentas para organizar movimentos.' 
+    description: 'Aaron Swartz foi um ThoughtWorker, programador, escritor, ativista de internet e organizador político. Trabalhou na especificação do RSS, criação do Reddit e também era membro do Centro Experimental de Ética da Universidade de Harvard. Preso por realizar downloads da revista científica JSTOR, Aaron cometeu sucídio aos 26 anos. Aaron utilizou a tecnologia de uma forma brilhante e corajosa para empoderar pessoas e democratizar o acesso a informações, como veículos para expressão, e ferramentas para organizar movimentos.' 
   },
   { 
     id: 'malala-yousafzai', 
