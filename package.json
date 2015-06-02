@@ -9,13 +9,24 @@
     "build:pack": "webpack ./src/js/entry.js ./build/js/bundle.js",
     "build": "npm run build:clean && npm run build:pack && npm run build:copy",
     "watch": "watch 'npm run build' ./src",
+    "test": "karma start --single-run --browsers PhantomJS",
     "publish": "npm run build && node ./scripts/publish"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^0.3.0",
+    "karma": "^0.12.35",
+    "karma-chrome-launcher": "^0.1.12",
+    "jasmine-core": "^2.3.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-safari-launcher": "^0.1.1",
+    "node-libs-browser": "^0.5.2",
     "webpack": "^1.9.10",
-    "watch": "^0.16.0"
+    "watch": "^0.16.0",
+    "phantomjs": "^1.9.17",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-webpack": "^1.5.1"
   }
 }

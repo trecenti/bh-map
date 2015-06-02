@@ -41,7 +41,7 @@ module.exports = function ListView (id, items) {
       svg = document.getElementById(item.id);
 
       a.href = '#' + item.id;
-      a.text = item.name;
+      a.innerHTML = item.name;
       li.appendChild(a);
       ul.appendChild(li);
       svg.classList.add(id);
