@@ -1,4 +1,5 @@
 var DetailView = require('./renderers/detail');
+var data = require('./data');
 
 module.exports = function (containerId) {
   var self = {};
@@ -12,15 +13,14 @@ module.exports = function (containerId) {
     }
   }
 
-  function addNewView(hash, data) {
+  function addNewView(hash, roomData) {
     var view, template, roomView;
-    function byId(room) { return room.id === hash; }
 
     template = document.getElementById('room-details-template');
     view = document.importNode(template.content, true);
 
-    if (data) {
-      roomView = new DetailView(view, data);
+    if (roomData) {
+      roomView = new DetailView(view, roomData);
       container.appendChild(roomView.render());
     }
   }
@@ -28,13 +28,16 @@ module.exports = function (containerId) {
   function changeView(hash, callback) {
     clearPreviousView();
     if (hash) {
-      addNewView(hash);
+      function byId(room) { return room.id === hash; }
+
+      addNewView(hash, data.bh.rooms.filter(byId)[0]);
       callback(hash);
     }
   }
 
   self.init = function (afterChangeCallback) {
     window.addEventListener('hashchange', function (e) {
+
       var hash = e.newURL.split('#')[1];
       changeView(hash, afterChangeCallback);
     });
