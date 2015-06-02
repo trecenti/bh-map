@@ -19,12 +19,12 @@ bh.rooms = [
   { 
     id: 'aaron-swartz', 
     name: 'Aaron Swartz', 
-    description: '' 
+    description: 'Aaron Swartz foi um ThoughtWorker, programdor, escritor, ativista de internet e organizador político. Trabalhou na especificação do RSS, criação do Reddit e também era membro do Centro Experimental de Ética da Universidade de Harvard. Preso por realizar downloads da revista científica JSTOR, Aaron cometeu sucídio aos 26 anos. Aaron utilizou a tecnologia de uma forma brilhante e corajosa para empoderar pessoas e democratizar o acesso a informações, como veículos para expressão, e ferramentas para organizar movimentos.' 
   },
   { 
     id: 'malala-yousafzai', 
     name: 'Malala Yousafzai', 
-    description: '' 
+    description: 'Malala Yousafza é uma ativista paquistanesa e a pessoa mais nova a ser laureada com um Prêmio Nobel. É conhecida principalmente pela defesa dos direitos humanos das mulheres e do acesso à educação na sua região natal no Paquistão, onde as jovens são impedidas de frequentar a escola. O ativismo de Malala tornou-se um movimento internacional. Em 2012 Malala sofreu uma tentativa de assassinato. Três tiros foram disparados e um a atingiu na testa. Após o atentado Malala recebeu apoio internacional à sua causa e este movimento impulsionou o a retificação da primeira lei de direito à educação no Paquistão.' 
   },
   { 
     id: 'dandara', 
